@@ -1,0 +1,36 @@
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <strong> &copy; <?=Date('Y')?></strong>
+  </footer>
+
+</div>
+<!-- ./wrapper -->
+
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button);
+</script>
+<!-- Bootstrap 3.3.7 -->
+<script src="<?=base_url('./../assets/adminlte/bower_components/bootstrap/dist/js/bootstrap.min.js');?>"></script>
+<!-- jQuery Knob Chart -->
+<script src="<?=base_url('./../assets/adminlte/bower_components/jquery-knob/dist/jquery.knob.min.js');?>"></script>
+<!-- Bootstrap WYSIHTML5 -->
+<script src="<?=base_url('./../assets/adminlte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js');?>"></script>
+<!-- DataTables -->
+<script src="<?=base_url('./../assets/adminlte/bower_components/datatables.net/js/jquery.dataTables.min.js');?>"></script>
+<!-- <script src="<?=base_url('./../assets/adminlte/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js');?>"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!-- FastClick -->
+<script src="<?=base_url('./../assets/adminlte/bower_components/fastclick/lib/fastclick.js');?>"></script>
+<!-- AdminLTE App -->
+<script src="<?=base_url('./../assets/adminlte/dist/js/adminlte.min.js');?>"></script>
+<script>
+  $(function(){
+    $('.dt').DataTable()
+  })
+</script>
+</body>
+</html>
