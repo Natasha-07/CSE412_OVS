@@ -1,5 +1,4 @@
 # CSE412_OVS
-Log on to codeastro.com for more projects!
 
 **Database Name: votingniter**
 
